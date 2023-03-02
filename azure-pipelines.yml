@@ -7,8 +7,9 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+# pool:
+#   vmImage: ubuntu-latest
+pool: Agent-OnPremise
 
 steps:
 - task: Maven@3
